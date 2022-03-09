@@ -13,7 +13,7 @@ module.exports = {
     'eslint:recommended'
   ],
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: '@babel/eslint-parser'
   },
   rules: {
     "vue/html-closing-bracket-newline": ["error", {
@@ -23,7 +23,7 @@ module.exports = {
     "vue/html-self-closing": ["error", {
       "html": {
         "void": "always",
-        "normal": "always",
+        "normal": "never",
         "component": "always"
       },
       "svg": "always",

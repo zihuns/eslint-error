@@ -1,6 +1,6 @@
 <template>
   <img 
     src="~assets/logo.png" 
-    alt="HEROPY">
-  <div />
+    alt="HEROPY" />
+  <div></div>
 </template>
